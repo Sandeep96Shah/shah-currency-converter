@@ -5,8 +5,8 @@ const freecurrencyapi = new Freecurrencyapi('fca_live_TmPgAd52KfJdlctwU4wOo1DeCO
 
 export async function convertCurrency(fromCurrency, toCurrency, units){
     const response = await freecurrencyapi.latest({
-        base_currency: 'USD',
-        currencies: 'EUR'
+        base_currency: fromCurrency,
+        currencies: toCurrency
     });
 
     const multiplier = response?.data?.[toCurrency] ?? 0;
