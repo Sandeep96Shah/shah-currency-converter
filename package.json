@@ -1,0 +1,22 @@
+{
+  "name": "shah-curremcy-converter",
+  "version": "1.0.0",
+  "description": "npm package for currency converter",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Sandeep96Shah/shah-currency-converter.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "sandeep kumar shah",
+  "license": "ISC",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
